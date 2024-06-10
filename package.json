@@ -1,0 +1,28 @@
+{
+  "name": "ghw-sc-vd",
+  "version": "1.0.0",
+  "description": "Testing Solidity Vulnerability Checker: slither",
+  "main": "main.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": "git@github.com:trinitronx/ghw-sc-vd.git",
+  "keywords": [
+    "solidity",
+    "slither"
+  ],
+  "author": "James Cuzella",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gabriellamiesner/ghw-sc-vd/issues"
+  },
+  "homepage": "https://github.com/gabriellamiesner/ghw-sc-vd#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "ethereum-waffle": "^4.0.10",
+    "web3": "^4.9.0"
+  }
+}
