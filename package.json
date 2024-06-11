@@ -4,6 +4,7 @@
   "description": "Testing Solidity Vulnerability Checker: slither",
   "main": "main.js",
   "scripts": {
+    "demo": "node index.js",
     "test": "npx hardhat test"
   },
   "repository": "git@github.com:trinitronx/ghw-sc-vd.git",
