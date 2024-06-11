@@ -2,6 +2,7 @@
 require('dotenv').config();
 
 require("@nomiclabs/hardhat-waffle");
+require("hardhat-slither");
 const quickNodeAPIEndpoint = process.env.QUICKNODE_API_ENDPOINT;
 const privateQuickNodeAPIToken = process.env.PRIVATE_QUICKNODE_API_TOKEN;
 const walletPrivateKey = process.env.WALLET_PRIVATE_KEY;
@@ -9,7 +10,7 @@ const sepoliaQuickNodeApiEndpoint = `https://${quickNodeAPIEndpoint}/${privateQu
 const DEBUG = process.env.HARDHAT_DEBUG || false;
 
 module.exports = {
-  solidity: "0.8.24",
+  solidity: "0.6.10",
   networks: {
     sepolia: {
       chainId: 11155111,
