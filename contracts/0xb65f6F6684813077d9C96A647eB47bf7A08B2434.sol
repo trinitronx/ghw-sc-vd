@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3-or-later
 /**
  *Submitted for verification at Etherscan.io on 2020-09-20
 */
